@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  text-align: center;
+  color: #fafafa;
+  background-color: #000;
+  padding-top: 1%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55%;
+  background: #000 url('../imgs/smcr-background.png') no-repeat center;
+  border: 2px solid #fafafa;
+  border-radius: 10px;
+  padding: 20px;
+  margin: auto;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 95%;
+  height: 80%;
+  background-color: #222;
+  border: 2px solid #fafafa;
+  border-radius: 10px;
+  opacity: 0.9;
+  padding: 10px 0 20px 0;
+}
+
+div {
+  padding: 5px 10px;
+}
+
+input, textarea, select {
+  margin: 5px 0;
+}
+
+label {
+  font-weight: 600;
+  padding: 5px;
+}
+
+p {
+  font-weight: 600;
+  padding: 5px;
+}
+
+a {
+  color: #fafafa;
+  text-decoration: none;
+}
+
+#radio, #returning, #liked {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid #fafafa;
+  border-radius: 5px;
+}
+
+#returning { margin-bottom: 10px; }
+
+.btn {
+  border: 1px solid #fafafa;
+  margin: 5px 0 5px 0;
+}
+
+.btn:hover {
+  background-color: rgb(182, 108, 182);
+}
+
+table {
+  width: 100%;
+  color: #fafafa;
+}
+th, td{
+  font-weight: 600;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  padding: 15px;
+}
+
+td {border-right: none;}
+
+#tableDiv {
+  border: 1px solid #fafafa;
+  border-radius: 5px;
+}
+
+.error {
+  color: rgb(196, 75, 75);
+  border: 5px solid rgb(196, 75, 75);
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.error span {
+  font-weight: 900;
+}
