@@ -71,12 +71,8 @@ def login():
         return redirect('/')
     session['user_name'] = user_in_db[0].first_name
     return redirect(f"/show/{user_in_db[0].id}")
-    # return render_template('test.html')
 
 
-# @app.route('/dashboard')
-# def dash(user_id):
-#     return render_template("")
 
 # @app.route('/users')
 # def user():
