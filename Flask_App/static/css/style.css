@@ -28,7 +28,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  flex-direction: column;
+  /* flex-direction: column; */
   width: 95%;
   height: 80%;
   background-color: #222;
